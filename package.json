@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "dependencies": {
+    "express": "^4.20.1"
+  },
   "scripts": {
     "dev": "npm run start-be & npm run start-fe",
     "start-be": "cd be && npm run dev",
